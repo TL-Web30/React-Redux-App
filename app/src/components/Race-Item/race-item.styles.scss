@@ -1,0 +1,32 @@
+.race-item{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 45px;
+  
+
+    .image{
+        width: 100%;
+        height: 95%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+    }
+
+    .race-footer {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    
+        .name {
+          margin-bottom: 15px;
+          font-family: "Cinzel", serif;
+          font-size: 1.5em;        
+        }
+      }
+}
