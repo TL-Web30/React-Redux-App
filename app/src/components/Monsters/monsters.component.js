@@ -62,10 +62,10 @@ const Monsters = props => {
             
             </div> 
             <nav>
-                { monsters ? (
+                { !searchResults.length ? (
                 <Pagination monstersPerPage={monstersPerPage} 
                 totalMonsters={monsters.length} paginate={paginate}/>
-                ) : (<p>no pages</p>)
+                ) : ('')
             }
             </nav>  
                   
